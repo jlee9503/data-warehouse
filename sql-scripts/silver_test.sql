@@ -1,6 +1,10 @@
 /*
 ============================================================
 -- Checking & Testing
+- Null or duplicate primary keys
+- White spaces in string values
+- Data standardization and consistency
+- Invalid date formats and orders
 =============================================================
 */
 
