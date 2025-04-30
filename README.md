@@ -12,6 +12,8 @@ The Project includes:
 
 The data architecture for this project uses **Medallion architecture** (Bronze, Silver, and Gold):
 
+![data-architecture](images/medallion-architecture.png)
+
 - **Bronze:**
   - Raw ingestion of data with minimal transformation.
   - Stores raw data from the source systems.
