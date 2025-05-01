@@ -1,14 +1,14 @@
 # Sales Data Warehouse Project
 
 ## Project Overview
-This project demonstrates a comprehensive data warehousing and analytics solution using SQL. It covers full data pipeline - from building a data warehouse to generating actionable insights - and showcases key data engineering and analytics skills, including data cleaning, ETL pipeline implementation, and structured data analysis.
+This project presents a comprehensive data warehousing and analytics solution developed using SQL. It demonstrates the full data pipeline - from raw data ingestion to structured analysis - and highlights key competencies in data modeling, ETL processes, and business intelligence. The goal is to transform raw sales data into actionable insights through a scalable medallion architecture.
 
-The Project includes:
-  1. **Data Architecture:** Designing a medallion architecture (Bronze, Silver, and Gold layers)
-  2. **ETL Pipelines:** Extracting, transforming, and loading data from source systems into the warehouse
-  3. **Data Modeling:** Developing fact and dimension tables optimized for analytical queries
+Key Components:
+  1. **Data Architecture:** Implemented the medallion architecture with Bronze (raw), Silver (cleansed), and Gold (business-ready) layers to structure data processing and analytics.
+  2. **ETL Pipelines:** Designed and developed ETL processes to extract, transform, and load data from multiple source systems (CRM & ERP) into a centralized SQL Server warehouse.
+  3. **Data Modeling:** Created a star schema by building optimized fact and dimension tables to support fast and efficient analytical queries.
 
-## Data Architecture
+## Data Architecture Layers
 
 The data architecture for this project uses **Medallion architecture** (Bronze, Silver, and Gold):
 
@@ -22,7 +22,7 @@ The data architecture for this project uses **Medallion architecture** (Bronze, 
   - Cleaned and enriched data used for analytics.
   - Includes data cleansing, standarization, and normalization process to prepare data for analysis.
 - **Gold:**
-  - Aggregated, business-ready data into a star schema for reporting and analytics.
+  - Created aggregated and business-ready tables in a star schema for user-friendly reporting and dashboarding.
 
 ## Project Requirements
 
@@ -43,4 +43,4 @@ Develop SQL-based analytics to deliver detailed insights.
 - Product Performance
 - Sales Trends
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+These insights empower stakeholders with meaningful business metrics to guide strategic decision-making.
