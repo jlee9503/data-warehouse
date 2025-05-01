@@ -44,3 +44,9 @@ Develop SQL-based analytics to deliver detailed insights.
 - Sales Trends
 
 These insights empower stakeholders with meaningful business metrics to guide strategic decision-making.
+
+### Technologies Used
+- **SQL Server (Docker Container):** For hosting and managing the relational data warehouse.
+- **Visual Studio Code:** Primary development environment for writing SQL scripts and managing data workflows.
+- **T-SQL:** For querying, transforming, and analyzing data.
+- **CSV Files:** Source data format ingested.
